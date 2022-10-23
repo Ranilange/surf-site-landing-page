@@ -1,0 +1,125 @@
+.home-page-container {
+    background-image: url("https://img.olympicchannel.com/images/image/private/t_16-9_3200/primary/ojpcg2xlihwx84ipvrcw");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    font-size: 40px;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.542);
+
+}
+
+.home-page-logo {
+    height: 40vh;
+}
+
+.home-page-title {
+    font-family: 'Inspiration', cursive;
+    width: 50vw;
+    margin: 0;
+}
+
+.title-second-color {
+    color: rgb(16, 113, 239);
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+
+
+.contact-title {
+    font-family: 'Inspiration', cursive;
+    width: 50vw;
+    margin: 0;
+}
+
+.model-overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.384);
+    position: absolute;
+}
+
+.modal-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 32vh;
+    left: 35vw;
+    height: 30vh;
+    width: 30vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.66);
+}
+
+.modal-content input {
+    width: 80%;
+}
+
+.button1 {
+    width: 15vw;
+    height: 8vh;
+    border: 0px solid white;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ffffffd0, #6dd4fa, #2980B9);
+    box-shadow: 0px 0px 30px black;
+    color: white;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.button1:hover {
+    width: 16vw;
+    height: 9vh;
+    border: 0px solid white;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ffffffd0, #6dd4fa, #2980B9);
+    box-shadow: 0px 0px 30px black;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .home-page-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home-page-logo {
+        height: 20vh;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home-page-title {
+        font-family: 'Inspiration', cursive;
+        width: 80vw;
+        margin-top: 10vh;
+        font-size: 60px;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .button1 {
+        width: 20vw;
+
+    }
+}
